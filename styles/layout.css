@@ -1,23 +1,52 @@
+html, body {
+    height: 100%;
+    width: 50%;
+}
+
+html {
+  padding-top: 20px;
+    display: table;
+    margin: auto;
+}
+
 body {
-      width: 60%;
-      padding-left: 80px;
-      padding-top: 30px;
+      display: table-cell;
+      vertical-align: middle;
+      background-color: #F2F2F2;
 
 }
 
 header {
       text-align: center;
+      background-color: #FFF;
+      padding-top: 3px;
+      padding-bottom: 20px;
 }
 
 p {
-  font-size: 1.2em;
   font-family: Georgia, serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5em;
+
 }
 
 h1 {
     font-size: 2em;
+    line-height: 1em;
     font-family: sans-serif;
     font-weight: 600;
+}
+a {
+  line-height: 1.8em;
+  color: #fff;
+  background-color: #eea2ad;
+  padding: 3px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: 	#8b5f65;
 }
 
 a,h2 {
@@ -40,8 +69,4 @@ h3 {
 
 .intro {
     text-align: center;
-}
-
-.aboutme {
-
 }
