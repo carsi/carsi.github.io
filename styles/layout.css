@@ -1,11 +1,11 @@
-@media screen and (max-width: 2080px) and (min-width: 1080px) {
+@media screen and (orientation: landscape) {
   html, body {
       height: 100%;
       width: 50%;
   }
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (orientation: portrait) {
   html, body {
     height: 100%;
     width: 90%;
