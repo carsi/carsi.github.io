@@ -1,7 +1,7 @@
 @media screen and (orientation: landscape) {
   html, body {
       height: 100%;
-      width: 50%;
+      width: 70%;
   }
 }
 
@@ -13,7 +13,7 @@
 }
 
 html {
-  padding-top: 20px;
+    padding-top: 20px;
     display: table;
     margin: auto;
 }
@@ -21,7 +21,8 @@ html {
 body {
       display: table-cell;
       vertical-align: middle;
-      background-color: #ffdede;
+      background-color: #FFDEDE;
+      color: #1E2D3C;
 
 }
 
@@ -29,15 +30,19 @@ header {
       text-align: center;
       padding-top: 3px;
       padding-bottom: 20px;
+      color: #1E2D3C;
 }
 
 p, ol {
-  font-family: sans-serif;
-  font-size: 1.2em;
-  font-weight: 500;
-  line-height: 1.5em;
-
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
 }
+
+ul {
+    list-style-type: none;
+}
+
 
 h1 {
     font-size: 2em;
@@ -46,23 +51,25 @@ h1 {
     font-weight: 600;
 }
 a {
-  line-height: 1.8em;
-  color: #fff;
-  background-color: #666;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 2em;
+  color: #FFFFFF;
+  background-color: #388A8A;
   padding: 5px;
   border-radius: 3px;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: 	#8b5f65;
+  background-color: #CC0000;
 }
 
-a,h2 {
+h2 {
+    color: #CC0000;
     font-size: 1.5em;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 600;
-
 }
 
 h3 {
@@ -79,3 +86,10 @@ h3 {
 .intro {
     text-align: center;
 }
+/* Color scheme:
+#FFDEDE Light blush pink
+#D4D8C6 Light green
+#90B878 Moderate pistachio
+#388A8A Sea foam
+#1E2D3C Navy blue
+*/
