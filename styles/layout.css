@@ -1,7 +1,7 @@
 @media screen and (orientation: landscape) {
   html, body {
       height: 100%;
-      width: 70%;
+      width: 65%;
   }
 }
 
@@ -27,20 +27,18 @@ body {
 }
 
 header {
-      text-align: center;
-      padding-top: 3px;
-      padding-bottom: 20px;
       color: #1E2D3C;
 }
 
 p, ol {
     font-family: Arial, sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.6em;
 }
 
 ul {
     list-style-type: none;
+    line-height: 3em;
 }
 
 
@@ -53,12 +51,13 @@ h1 {
 a {
   font-family: Arial, sans-serif;
   font-size: 1.2em;
-  line-height: 2em;
+  font-weight: 600;
   color: #FFFFFF;
   background-color: #388A8A;
-  padding: 5px;
+  padding: 2px 5px;
   border-radius: 3px;
   text-decoration: none;
+  transition: all .2s;
 }
 
 a:hover {
@@ -73,21 +72,31 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
-    font-family: sans-serif;
+    color: #CC0000;
+    font-size: 1.3em;
+    line-height: 1em;
+    font-family: 'Vollkorn SC', serif;
     font-weight: 400;
 }
 
-.project {
-    text-align: center;
-    margin-bottom: 2em;
+h4 {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-family: 'Vollkorn SC', serif;
+}
+
+.bigp {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: Arial, sans-serif;
 }
 
 .intro {
     text-align: center;
 }
-/* Color scheme:
+/* Colors?
 #FFDEDE Light blush pink
+#CC0000 Red
 #D4D8C6 Light green
 #90B878 Moderate pistachio
 #388A8A Sea foam
