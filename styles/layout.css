@@ -75,14 +75,14 @@ h3 {
     color: #CC0000;
     font-size: 1.3em;
     line-height: 1em;
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Suez One', serif;
     font-weight: 400;
 }
 
 h4 {
     font-size: 1em;
     font-family: sans-serif;
-    font-family: 'Vollkorn SC', serif;
+    font-family: 'Suez One', serif;
 }
 
 .bigp {
@@ -93,7 +93,15 @@ h4 {
 
 .intro {
     text-align: center;
+    font-family: 'Suez One', serif;
+    font-size: 5em;
 }
+
+#name {
+    font-size: 3em;
+    color: #CC0000; 
+}
+    
 /* Colors?
 #FFDEDE Light blush pink
 #CC0000 Red
