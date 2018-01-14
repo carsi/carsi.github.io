@@ -30,39 +30,11 @@ header {
       color: #1E2D3C;
 }
 
-p, ol {
-    font-family: Arial, sans-serif;
-    font-size: 1.1em;
-    line-height: 1.8em;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-    line-height: 3em;
-}
-
-
 h1 {
     font-size: 2em;
     line-height: 1em;
     font-family: sans-serif;
     font-weight: 600;
-}
-a {
-  font-family: Arial, sans-serif;
-  font-size: 1.2em;
-  font-weight: 600;
-  color: #FFFFFF;
-  background-color: #388A8A;
-  padding: 2px 5px;
-  border-radius: 3px;
-  text-decoration: none;
-  transition: all .2s;
-}
-
-a:hover {
-  background-color: #CC0000;
 }
 
 h2 {
@@ -87,6 +59,31 @@ h4 {
     font-weight: 700;
 }
 
+a {
+  font-family: 'Lora', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #388A8A;
+  text-decoration-style: wavy;
+  transition: all .2s;
+}
+
+a:hover {
+  color: #CC0000;
+}
+
+p, ol {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 3em;
+}
+
 .bigp {
     font-size: 1.3em;
     line-height: 1.8em;
@@ -95,17 +92,42 @@ h4 {
 
 .intro {
     font-family: 'Lora', serif;
-    font-size: 5em;
+    font-size: 2em;
     line-height: 1.15em;
+}
+
+.intro2 {
+  font-family: 'Lora', serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+.button {
+    background-color: #CC0000;
+    border: none;
+    color: #FFFFFF;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1E2D3C;
+    color: #FFFFFF;
 }
 
 #name {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 2.5em;
-    color: #CC0000; 
+    font-size: 2em;
+    color: #CC0000;
 }
-    
+
 /* Colors?
 #FFDEDE Light blush pink
 #CC0000 Red
