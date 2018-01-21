@@ -75,7 +75,7 @@ a:hover {
 p, ol {
     font-family: Arial, sans-serif;
     font-size: 1.1em;
-    line-height: 1.8em;
+    line-height: 1.5em;
 }
 
 ul {
@@ -86,7 +86,7 @@ ul {
 
 .bigp {
     font-size: 1.3em;
-    line-height: 1.8em;
+    line-height: 1.5em;
     font-family: Arial, sans-serif;
 }
 
