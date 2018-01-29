@@ -1,0 +1,140 @@
+@media screen and (orientation: landscape) {
+  html, body {
+      height: 100%;
+      width: 65%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  html, body {
+    height: 100%;
+    width: 90%;
+  }
+}
+
+html {
+    padding-top: 20px;
+    display: table;
+    margin: auto;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+body {
+      display: table-cell;
+      vertical-align: middle;
+      /*background-color: #FFDEDE;*/
+      background-color: #EFF3F2;
+      color: #1E2D3C;
+
+}
+
+header {
+      color: #1E2D3C;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+h3 {
+    color: #CC0000;
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.graytext {
+  color: #333333;
+}
+
+a {
+  font-weight: 600;
+  color: #388A8A;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+a:hover {
+  color: #CC0000;
+}
+
+p, ol {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 3em;
+}
+
+.bigp {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro {
+    font-size: 2em;
+    line-height: 1.15em;
+}
+
+.intro2 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+.button {
+    background-color: #CC0000;
+    border: none;
+    color: #FFFFFF;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1E2D3C;
+    color: #FFFFFF;
+}
+
+.whitebox {
+    color: #FFFFFF;
+    margin: 1em;
+}
+
+#name {
+    text-align: center;
+    font-size: 2em;
+    color: #CC0000;
+}
+
+/* Colors?
+#FFDEDE Light blush pink
+#CC0000 Red
+#D4D8C6 Light green
+#90B878 Moderate pistachio
+#388A8A Sea foam
+#1E2D3C Navy blue
+*/
