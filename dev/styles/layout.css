@@ -39,8 +39,9 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: 800;
+    text-align: center;
 }
 
 h3 {
@@ -102,14 +103,14 @@ ul {
 }
 
 .button {
-    background-color: #CC0000;
+    background-color: #DC4549;
     border: none;
     color: #FFFFFF;
-    padding: .5em 1em;
+    padding: 1em 1.5em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -122,6 +123,7 @@ ul {
 .whitebox {
     color: #FFFFFF;
     margin: 1em;
+    text-align: center;
 }
 
 #name {
