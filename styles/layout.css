@@ -19,65 +19,51 @@ html {
 }
 
 body {
+      background-color: RGB(120, 216, 138, .2);
       display: table-cell;
       vertical-align: middle;
-      background-color: #FFDEDE;
       color: #1E2D3C;
 
 }
 
 header {
-      color: #1E2D3C;
+      background-color: #ffffff;
+      padding: 2em 3em;
 }
 
 h1 {
     font-size: 2em;
     line-height: 1em;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-family: 'Merriweather', serif;
 }
 
 h2 {
-    color: #CC0000;
+    color: RGB(45,133,140);
     font-size: 1.5em;
-    font-family: 'Lora', serif;
-    font-weight: 700;
+    font-family: 'Merriweather', serif;
 }
 
 h3 {
-    color: #CC0000;
+    color: #1E2D3C .8;
     font-size: 1.3em;
     line-height: 1em;
-    font-family: 'Lora', serif;
-    font-weight: 700;
-}
-
-h4 {
-    font-size: 1em;
-    font-family: sans-serif;
-    font-family: 'Lora', serif;
-    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
-  font-family: 'Lora', serif;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
-  font-weight: 600;
   color: #388A8A;
   transition: all .2s;
-  text-shadow:
-  -1px -1px #FFDEDE,
-  -1px 1px #FFDEDE,
-  1px -1px #FFDEDE,
-  1px 1px #FFDEDE;
 }
 
 a:hover {
-  color: #CC0000;
+  color: RGB(45,133,140);
 }
 
 p, ol {
-    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
     font-size: 1.1em;
     line-height: 1.5em;
 }
@@ -89,36 +75,40 @@ ul {
 }
 
 .intro {
-    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
     font-size: 2em;
-    line-height: 1.15em;
+    line-height: 1.5em;
 }
 
 .bigp {
-  font-family: 'Lora', serif;
-  font-size: 1.25em;
-  line-height: 1.5em;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5em;
 }
 
 .button {
     border: none;
-    color: #CC0000;
-    text-align: center;
+    background-color: rgb(53, 168, 151);
+    color: RGB(255,255,255);
+    padding:.5em .75em;
+    border-radius: 3px;
+    text-decoration: none;
+    vertical-align: center;
     display: inline-block;
-    font-family: 'Lora', serif;
     font-size: 1.25em;
     cursor: pointer;
 }
 
 .button:hover {
-    color: #388A8A;
+    background-color: RGB(45,133,140);
+    color: RGB(255,255,255);
 }
 
 #name {
     text-align: center;
-    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
     font-size: 2em;
-    color: #CC0000;
+    color: RGB(45,133,140);
 }
 
 /* Colors?
